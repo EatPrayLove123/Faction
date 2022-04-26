@@ -1,0 +1,450 @@
+body{
+    font-family: 'ABeeZee', sans-serif;
+}
+.phone-number{
+    font-size: 19px;
+}
+.menu{
+    margin-right: 40px;
+}
+.big-title{
+    font-size: 108px;  
+}
+.title{
+    font-size: 50px;
+}
+.description{
+    font-size: 20px;
+}
+.after-title{
+margin-top: -80px;
+}
+.responsive{
+    width: 1200px;
+}
+.card-body {
+    background-color: #E9EE73;
+    border:#D9E021 ;
+    width: 258px;
+    margin: 8px;
+}
+.icon {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 58px;
+    height: 58px;
+}
+.line{
+    border: 0.5px solid #000000;
+    margin-top: -27px;
+    margin-left: 84px;
+    width: 100%;
+}
+.line-2{
+    border: 0.5px solid #000000;
+    margin-top: -27px;
+    margin-left: 95px;
+    width: 100%;
+}
+.line-3{
+    border: 0.5px solid #000000;
+    margin-top: -21px;
+    margin-left: 70px;
+    width: 0px;
+}
+
+.icon-title{
+    font-size: 28px;
+    margin-top: 30px;
+    font-weight: bold;
+    height: 50px;
+    margin-left: 30px;
+}
+.icon-paragraf{
+    margin-top: 40px;
+    height: 100px;
+    margin-left: 30px;
+}
+.number{
+    color: #fff;
+    font-size: 130px;
+    margin-bottom: -42px;
+    margin-right: -20px;
+}
+.arrows{
+    margin-right: 90px;
+    margin-top: 10px;
+    width: 90px;
+}
+.button{
+    border: 2px solid #D9E021;
+    background-color:#D9E021;
+    color: black;
+    width: 256px;
+    height: 54px;
+    font-size: 22px;
+}
+.button:hover{
+    background-color: transparent ;
+    color: black;
+}
+
+.footer-title{
+    color: #D9E021;
+    font-size: 19px;
+}
+.newsletter{
+    margin-left: 50px;
+}
+input{
+    width: 80%;
+    padding: 12px 15px;
+    font-size: 19px;
+    border: none;
+    background-color: #363431;
+    color: #8F8F8F;
+   
+}
+.footer-p{
+    color: beige;
+    font-size: 19px;
+}
+@media (max-width: 1200px){
+    .phone-number{
+        font-size: 23px ;
+    }
+    .big-title{
+        font-size: 143px;
+    }
+    .title{
+        font-size: 60px;
+    }
+    .description{
+        font-size: 30px;
+    }
+    .button{
+        border: 2px solid #D9E021;
+        background-color:#D9E021;
+        color: black;
+        width: 306px;
+        height: 88px;
+        font-size: 34px; 
+    }
+    .footer-p{
+        color: beige;
+        font-size: 23px;
+    }   
+}
+
+@media only screen and (max-width: 576px) {
+    .phone-number{
+        font-size: 12px;
+        margin-top: -20px;
+        margin-right: 25px;
+    }
+    .menu{
+        width: 15px;
+        margin-top: -80px;
+        margin-right: 0;
+    }
+    .logo-1{
+        width: 120px;
+    }
+    .big-title{
+        font-size: 40px;  
+    }
+    .title{
+        font-size: 30px;
+    }
+    .description{
+        font-size: 15px;
+        margin-top: -25px;
+    }
+    .button{
+        border: 2px solid #D9E021;
+        background-color:#D9E021;
+        color: black;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        height: 40px;
+        font-size: 14px;
+    }
+    .after-title{
+        margin-top: -220px;
+        margin-left: 270px;
+        width: 55px;
+    }
+    .responsive{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: -100px;
+    }
+    .card-body {
+        background-color: #E9EE73;
+        border:#D9E021 ;
+        width: 250px;
+        margin: 8px;
+    }
+    .icon {
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 58px;
+        height: 58px;
+    }
+    .icon-title{
+        font-size: 26px;
+        margin-top: 20px;
+        font-weight: bold;
+        height: 60px;
+        margin-left: 30px;
+    }
+    .icon-paragraf{
+        margin-top: 40px;
+        height: 100px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .number{
+        color: #fff;
+        font-size: 100px;
+        margin-bottom: -42px;
+        margin-right: -20px;
+    }
+    .arrows{
+        margin-right: 90px;
+        margin-top: 20px;
+        width: 70px;
+    }
+    .xs-position{
+        margin-right: 45px;
+        margin-top: -70px;
+    }
+    .footer-title{
+        color: #D9E021;
+        font-size: 10px;
+    }
+    .newsletter{
+        margin-left: 0px;
+    }
+    input{
+        width: 80%;
+        padding: 8px 10px ;
+        font-size: 10px;
+        margin: 8px 0;
+        border: none;
+        background-color: #363431;
+        color: #8F8F8F;
+    }
+    .footer-p{
+        color: beige;
+        font-size: 10px;
+    }
+    
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .phone-number{
+        font-size: 12px;
+    }
+    .menu{
+        width: 17px;
+        margin-top: -7px;
+    }
+    .logo-1{
+        width: 150px;
+    }
+    .big-title{
+        font-size: 50px;  
+    }
+    .title{
+        font-size: 35px;
+    }
+    .description{
+        font-size: 17px;
+        margin-top: -20px;
+    }
+    .description br{
+        display: none;
+    }
+    .button{
+        border: 2px solid #D9E021;
+        background-color:#D9E021;
+        color: black;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        height: 40px;
+        font-size: 18px;
+    }
+    .after-title{
+        margin-top: -220px;
+        margin-left: 270px;
+    }
+    .xs-position{
+        margin-right: 45px;
+        margin-top: -70px;
+    }
+    .responsive{
+        width: 100%;
+        margin-top: -60px;
+    }
+    .card-body {
+        background-color: #E9EE73;
+        border:#D9E021 ;
+        width: 250px;
+        margin: 8px;
+    }
+    .icon {
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 58px;
+        height: 58px;
+    }
+    .icon-title{
+        font-size: 22px;
+        margin-top: 30px;
+        font-weight: bold;
+        height: 60px;
+        margin-left: 30px;
+    }
+    .icon-paragraf{
+        margin-top: 40px;
+        height: 100px;
+        margin-left: 30px;
+        font-size: 18px;
+    }
+    .icon-paragraf br{
+        display: none;
+    }
+    .number{
+        color: #fff;
+        font-size: 100px;
+        margin-bottom: -42px;
+        margin-right: -20px;
+    }
+    .arrows{
+        margin-right: 90px;
+        margin-top: 20px;
+        width: 70px;
+    }
+    .footer-title{
+        color: #D9E021;
+        font-size: 10px;
+    }
+    .newsletter{
+        margin-left: 0px;
+    }
+    input{
+        width: 80%;
+        padding: 8px 10px ;
+        font-size: 10px;
+        margin: 8px 0;
+        border: none;
+        background-color: #363431;
+        color: #8F8F8F;
+    }
+    .footer-p{
+        color: beige;
+        font-size: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+    .phone-number{
+        font-size: 17px;
+    }
+    .menu{
+        width: 25px;
+        margin-top: -7px;
+    }
+    .big-title{
+        font-size: 55px;  
+    }
+    .title{
+        font-size: 40px;
+    }
+    .description{
+        font-size: 17px;
+        margin-top: -20px;
+    }
+    .description br{
+        display: none;
+    }
+    .button{
+        border: 2px solid #D9E021;
+        background-color:#D9E021;
+        color: black;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        height: 40px;
+        font-size: 18px;
+    }
+    .after-title{
+      margin-top: -10px;
+    }
+    .responsive{
+        width: 100%;
+        margin-top: -60px;
+    }
+    .card-body {
+        background-color: #E9EE73;
+        border:#D9E021 ;
+        width: 250px;
+        margin: 8px;
+    }
+    .icon {
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 58px;
+        height: 58px;
+    }
+    .icon-title{
+        font-size: 22px;
+        margin-top: 30px;
+        font-weight: bold;
+        height: 60px;
+        margin-left: 30px;
+    }
+    .icon-paragraf{
+        margin-top: 40px;
+        height: 100px;
+        margin-left: 30px;
+        font-size: 18px;
+    }
+    .icon-paragraf br{
+        display: none;
+    }
+    .number{
+        color: #fff;
+        font-size: 100px;
+        margin-bottom: -42px;
+        margin-right: -20px;
+    }
+    .arrows{
+        margin-right: 90px;
+        margin-top: 20px;
+        width: 70px;
+    }
+    
+    .footer-title{
+        color: #D9E021;
+        font-size: 10px;
+    }
+    .newsletter{
+        margin-left: 0px;
+    }
+    input{
+        width: 80%;
+        padding: 8px 10px ;
+        font-size: 10px;
+        margin: 8px 0;
+        border: none;
+        background-color: #363431;
+        color: #8F8F8F;
+    }
+    .footer-p{
+        color: beige;
+        font-size: 10px;
+    }
+}
